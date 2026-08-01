@@ -1,0 +1,51 @@
+<svg width="100%" height="160" viewBox="0 0 1200 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DCEFFF">
+        <animate attributeName="stop-color" values="#DCEFFF;#FFE1F0;#E9DCF9;#DCEFFF" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#F3E9FF">
+        <animate attributeName="stop-color" values="#F3E9FF;#E9DCF9;#FFE1F0;#F3E9FF" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="fwaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D9C6F0" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#BFE3FF" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="fGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="160" rx="22" fill="url(#fbgGrad)"/>
+
+  <path d="M0,40 C200,15 300,55 500,35 C700,15 800,55 1000,35 C1100,25 1150,35 1200,30 L1200,0 L0,0 Z" fill="url(#fwaveGrad)"/>
+
+  <g fill="#D9B8F0">
+    <text x="90" y="60" font-size="16" opacity="0.9">✦
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </text>
+    <text x="1090" y="55" font-size="14" fill="#FFB6D9">✦
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/>
+    </text>
+    <text x="260" y="35" font-size="12" fill="#AEE2FF">✧
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.4s" repeatCount="indefinite"/>
+    </text>
+    <text x="940" y="35" font-size="12" fill="#D9B8F0">✧
+      <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <g transform="translate(150,95)" fill="#F3C6E0" opacity="0.85">
+    <path d="M0,0 C-10,-10 -19,-3 -14,6 C-10,13 -3,7 0,0 Z"/>
+    <path d="M0,0 C10,-10 19,-3 14,6 C10,13 3,7 0,0 Z"/>
+    <animateTransform attributeName="transform" type="translate" values="150,95;150,85;150,95" dur="3s" repeatCount="indefinite"/>
+  </g>
+
+  <g text-anchor="middle" filter="url(#fGlow)">
+    <text x="600" y="105" font-family="Georgia, serif" font-size="22" font-weight="600" fill="#6B4A85">
+      Thank you for visiting ✨ keep building, keep dreaming 🌙
+    </text>
+  </g>
+</svg>
