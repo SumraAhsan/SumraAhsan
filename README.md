@@ -207,61 +207,25 @@ Currently building further Agentic AI and multi-agent systems projects. This spa
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=SumraAhsan&show_icons=true&hide_border=true&bg_color=00000000&title_color=8C6AA8&text_color=6B4A85&icon_color=C8A2E8&ring_color=FFC1E3" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SumraAhsan&layout=compact&hide_border=true&bg_color=00000000&title_color=8C6AA8&text_color=6B4A85&langs_count=8" width="48%" />
+<img src="https://img.shields.io/github/followers/SumraAhsan?style=for-the-badge&color=C8A2E8&labelColor=E6D7F5&logoColor=6B4A85&label=Followers" />
+<img src="https://img.shields.io/github/last-commit/SumraAhsan/SumraAhsan?style=for-the-badge&color=FFC1E3&labelColor=FFD6E8&label=Last%20Update" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/SumraAhsan&label=Public%20Repos&query=public_repos&style=for-the-badge&color=A7D8F0&labelColor=AEE2FF&logoColor=39587A" />
 
-<br/>
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=SumraAhsan&hide_border=true&background=00000000&ring=C8A2E8&fire=FFB6D9&currStreakLabel=8C6AA8&currStreakNum=6B4A85&sideNums=6B4A85&sideLabels=8C6AA8&dates=8C6AA8" width="70%" />
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=SumraAhsan&theme=gruvvox&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" width="90%" />
+<img src="./assets/achievements.svg" alt="Achievements showcase" width="95%" />
 
 </div>
 
 <br/>
-
-## 🐍 &nbsp;Contribution Snake
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/SumraAhsan/SumraAhsan/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" width="100%" />
+<img src="./assets/divider.svg" alt="divider" width="100%" />
 </div>
-
-<details>
-<summary>🦋 <i>How this animates (one-time setup)</i></summary>
-<br/>
-
-The snake above renders once the <b>Platane/snk</b> GitHub Action is added to this repository. Create <code>.github/workflows/snake.yml</code> with:
-
-```yaml
-name: generate snake
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch: {}
-  push:
-    branches:
-      - main
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: SumraAhsan
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Once the action runs once, the snake above will animate automatically. 🐍✨
-</details>
 
 <br/>
 
